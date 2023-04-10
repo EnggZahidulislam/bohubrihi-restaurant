@@ -1,7 +1,11 @@
+import NavigationComponent from './NavigationComponent';
+
 const HeaderComponent = () => {
-  return (
-    <div>HeaderComponent</div>
-  )
-}
+	return (
+		<div>
+			<NavigationComponent />
+		</div>
+	);
+};
 
 export default HeaderComponent;
